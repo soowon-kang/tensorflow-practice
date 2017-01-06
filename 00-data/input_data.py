@@ -132,6 +132,7 @@ class DataSet(object):
         return self._images[start:end], self._labels[start:end]
 
 
+@DeprecationWarning
 def read_data_sets(train_dir, fake_data=False, one_hot=False):
     class DataSets(object):
         pass

@@ -1,6 +1,6 @@
-import input_data
 import numpy as np
 import tensorflow as tf
+from tensorflow.examples.tutorials.mnist import input_data
 
 mnist = input_data.read_data_sets(
     "/Users/CubePenguin/PycharmProjects/tensorflow-practice/00-data/",
